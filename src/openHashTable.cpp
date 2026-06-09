@@ -80,6 +80,7 @@ bool OpenHashTable::insert(int key, int value) {
 
         idx = (idx + 1) % capacity; //przesuwanie indeksu o 1
 
+        
     } while (idx != startIdx);
 
 
