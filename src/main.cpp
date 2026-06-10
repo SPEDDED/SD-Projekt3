@@ -25,7 +25,7 @@ void runResearch() {
     }
 
     // Rozmiary tablic
-int sizes[] ={5000, 10000, 15000, 20000, 25000, 30000, 35000, 40000, 45000, 50000};
+    int sizes[] ={5000, 10000, 20000, 30000, 40000, 50000, 60000, 70000, 80000, 90000, 100000, 110000, 120000, 130000, 140000, 150000}; 
     
     const int numSeeds = 10;  // 10 różnych seedów
     const int numReps = 100;   // 100 powtórzeń na każdy seed
