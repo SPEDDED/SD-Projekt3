@@ -9,7 +9,7 @@ private:
     struct AVLNode {
         int key;
         int value;
-        int height; 
+        int height; //wysokość węzła w drzewie
 
 
         AVLNode* left; //wskażnik na lawe dziecko
