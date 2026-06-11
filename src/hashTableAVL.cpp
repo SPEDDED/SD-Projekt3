@@ -7,7 +7,7 @@ HashTableAVL::HashTableAVL(int cap) : HashTable(cap) { //konstruktor z dziedzicz
     for (int i = 0; i < capacity; ++i) table[i] = nullptr; //inicjalizacja wskaźników jako puste (nullptr)
 }
 
-HashTableAVL::~HashTableAVL() { //dekonstruktor
+HashTableAVL::~HashTableAVL() { 
     clear();
     delete[] table;
 }
