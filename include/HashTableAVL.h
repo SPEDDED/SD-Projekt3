@@ -3,7 +3,7 @@
 
 #include "HashTable.h"
 
-class HashTableAVL : public HashTable { // Dziedziczenie z HashTable
+class HashTableAVL : public HashTable { 
 private:
 
     struct AVLNode {
