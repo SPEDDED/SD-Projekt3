@@ -8,7 +8,7 @@ protected:
     int capacity;
 
     
-    int hashFunction(int key) const {// Hashopwanie przez dzielenie modulo
+    int hashFunction(int key) const {// 
         int hash = key % capacity;
         return hash < 0 ? hash + capacity : hash;
         // Jak klucz jest ujemny to dodawane jest capacity, co po prostu zmienia liczbę na dodatnią
