@@ -56,7 +56,7 @@ void runResearch() {
             std::uniform_int_distribution<int> dist(1, 2000000);
 
 
-            for (int rep = 0; rep < numReps; ++rep) { //pętla po ilości powtórzeń dla każdego z seedów
+            for (int rep = 0; rep < numReps; ++rep) {
 
                 // Wypełnienie tablicy kluczy i wartości danymi
                 for (int i = 0; i< size; ++i) {
